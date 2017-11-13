@@ -1,0 +1,16 @@
+<h1>The Longest word</h1>
+
+<div class="container">
+
+  <h2>Grid</h2>
+  <%=@grid%>
+
+  <form action="score" method="get">
+    <label for="score"></label>
+    <input type="text" name="word" placeholder="Give a word.">
+    <input type="hidden" name="grid" value=<%=@grid%> placeholder="Give a word.">
+    <div><input type="submit" value="Submit"></div>
+  </form>
+
+</div>
+
